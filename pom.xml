@@ -33,4 +33,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <build>
+  <finalName>maven-mplify-github-actions</finalName>
+  </build>
+  
 </project>
