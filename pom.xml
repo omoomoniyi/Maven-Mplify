@@ -15,15 +15,17 @@
     <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
 
-  <dependencies>
+
+  <dependencies> 
+
 
     <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-chrome-driver</artifactId>
-      <version>${selenium.version}</version>
-  </dependency>
+      <groupId>org.openqa.selenium.server</groupId>
+      <artifactId>selenium-server-coreless</artifactId>
+      <version>1.0-20081010.060147</version>
+    </dependency>
 
-  
+    
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
